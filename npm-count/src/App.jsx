@@ -10,6 +10,8 @@ function App() {
 
   const [text, setText] = useState("Welcome")
 
+  // console.log(countReset)
+
   function countUpFunc() {
     setCount((prevNum) => countUp(prevNum))
     setText("One more...")
